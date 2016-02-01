@@ -1,0 +1,30 @@
+%header#fixed{ :'scroll-class' => '', :'ng-class' => '{ "scrolled" : scrolled }' }
+  .bg
+  .wrap
+    %a.logo{ :href => '/' }
+      garethweaver.com
+      %span.fa.fa-code
+    %a.fa.mobile-menu{ :'ng-click' => 'toggleMenu()', :'ng-class' => 'showMenu ? "fa-times open" : "fa-bars"' }
+    .clearfix.visible-xs.visible-sm
+    %nav{ :'ng-show' => 'showMenu' }
+      %ul
+        %li
+          %a{ :href => 'http://www.writelessdomore.co.uk/', :target => '_blank' }
+            %span.fa.fa-pencil
+            %span.text Articles
+        %li
+          %a{ :href => 'http://codepen.io/garethdweaver', :target => '_blank' }
+            %span.fa.fa-codepen
+            %span.text Codepen
+        %li
+          %a{ :href => '/GarethWeaverCV.pdf', :target => '_blank' }
+            %span.fa.fa-file-pdf-o
+            %span.text CV.pdf
+        %li
+          %a{ :'ng-click' => 'Overlay.toggleOverlay("twitterOverlay")' }
+            %span.fa.fa-twitter
+            %span.text Twitter
+        %li
+          %a{ :'ng-click' => 'Overlay.toggleOverlay("emailOverlay")' }
+            %span.fa.fa-envelope-o
+            %span.text Email

@@ -1,0 +1,166 @@
+# TODO:
+# sdo
+# south london touch
+# snow canvas
+# camden screenshot
+# big sofa screenshot
+# headless ghost screenshot
+
+
+
+- url: /sd-osteopaths.html
+  thumb: /thumb/ghost.jpg
+  title: St David's Osteopaths
+  type: Website Design &amp; Build
+  year: 2015
+  description: <p>When running a Kickstarter it's never a bad idea to throw up a microsite to promote your campaign or project. I designed this microsite to be big and bold while encouraging people to get involed and fund the project. Headless Ghost mimics a high resolution display unit for headless machines for GPU accelerated remote desktop and crypto currency mining.</p>
+  tools: Photoshop, Middleman, Haml, Scss, Anchor CMS
+  live_site: http://www.sdosteopaths.co.uk/
+  images:
+    - '/folio/ghost-1.jpg'
+  # next_page: /cashbackcard.html
+  # meta:
+  #   title: Headless Ghost Kickstarter Design - Portfolio of Gareth Weaver
+  #   description: A simple one page promotional website for Headless Ghost Kickstarter. Built in Haml and Scss with Middleman
+
+- url: /south-london-touch.html
+  thumb: /thumb/countdown.gif
+  title: South London Touch
+  type: Website Design &amp; Build
+  year: 2015
+  description: <p>When running a Kickstarter it's never a bad idea to throw up a microsite to promote your campaign or project. I designed this microsite to be big and bold while encouraging people to get involed and fund the project. Headless Ghost mimics a high resolution display unit for headless machines for GPU accelerated remote desktop and crypto currency mining.</p>
+  tools: Photoshop, Middleman, Haml, Scss, AngularJs
+  live_site: http://www.southlondontouchrugby.co.uk/
+  images:
+    - '/folio/touch-1.jpg'
+  # next_page: /cashbackcard.html
+  # meta:
+  #   title: Headless Ghost Kickstarter Design - Portfolio of Gareth Weaver
+  #   description: A simple one page promotional website for Headless Ghost Kickstarter. Built in Haml and Scss with Middleman
+
+- url: http://codepen.io/garethdweaver/details/rOPpLW/
+  thumb: /thumb/countdown.gif
+  title: Snow Canvas
+  external: true
+
+- url: /headless-ghost.html
+  thumb: /thumb/ghost.jpg
+  title: Headless Ghost
+  type: Website Design &amp; Build
+  year: 2014
+  description: <p>When running a Kickstarter it's never a bad idea to throw up a microsite to promote your campaign or project. I designed this microsite to be big and bold while encouraging people to get involed and fund the project. Headless Ghost mimics a high resolution display unit for headless machines for GPU accelerated remote desktop and crypto currency mining.</p>
+  tools: Photoshop, Middleman, Haml, Scss, AngularJs
+  live_site: http://www.headlessghost.com/
+  images:
+    - '/folio/ghost-1.jpg'
+  next_page: /cashbackcard.html
+  meta:
+    title: Headless Ghost Kickstarter Design - Portfolio of Gareth Weaver
+    description: A simple one page promotional website for Headless Ghost Kickstarter. Built in Haml and Scss with Middleman
+
+- url: /cashbackcard.html
+  thumb: /thumb/cashback.gif
+  title: Cashback&shy;Card.com
+  type: Website Design
+  year: 2014
+  description: <p>Cashbackcard came to me with a very specific idea of what they wanted. Working within the constrains of the brief while adhering to current trends I tried to create something that ticked all the boxes while keeping loyal to their brand.</p>
+  tools: Photoshop
+  images:
+    - '/folio/cashback-1.jpg'
+  next_page: /big-sofa.html
+  meta:
+    title: Cashback Card Website Design - Portfolio of Gareth Weaver
+    description: Bespoke website design and layout for Cashbackcard.com assembled using Photoshop and Illustrator
+
+- url: /big-sofa.html
+  thumb: /thumb/bigsofa.jpg
+  title: Big Sofa
+  type: Website Design &amp; Build
+  year: 2015
+  description: <p>A quickie thrown up for Big Sofa to modernize their website in order to generate investment and re-align their web presence with the company's current direction. Keeping things clean, colourful, simple and on brand was key.</p>
+  tools: Photoshop, Middleman, Haml, Scss, AngularJs
+  live_site: http://www.bigsofa.co.uk/
+  images:
+    - '/folio/big-sofa-1.jpg'
+  next_page: /illustration.html
+  meta:
+    title: Big Sofa Website Design - Portfolio of Gareth Weaver
+    description: desc
+
+- url: /illustration.html
+  thumb: /thumb/illustration.jpg
+  title: Illustrations
+  type: For Fun
+  year: 2012
+  description: <p>Here's what happens when I have some time and feel a little creative. Things don't always work out as expected but sometimes that's just the fun of it. I'm no Claude Monet.</p>
+  tools: Photoshop, Illustrator
+  images:
+    - '/folio/illustration-1.jpg'
+    - '/folio/illustration-2.jpg'
+    - '/folio/illustration-3.jpg'
+  next_page: /camden-bar.html
+  meta:
+    title: Illustration &amp; Doodles - Portfolio of Gareth Weaver
+    description: Here you can find some random illustrations, doodles and art designed in Illustrator and Photoshop
+
+- url: http://codepen.io/garethdweaver/details/zdElu/
+  thumb: /thumb/codepen.gif
+  title: Popular Codepen of 2014
+  external: true
+
+# - url: /health-performance-international.html
+#   thumb: /thumb/hapi.jpg
+#   title: Health Performance International
+#   type: Website
+#   year: 2011
+#   description: <p>Health Performance International required a futuristic looking website to showcase their use of the immersive Orrb Pod for stress prevention and recovery. I put this website together quite a while ago but I feel it still remains relevant even today.</p>
+#   tools: Design, XHTML, CSS, PHP
+#   live_site: http://hapinyc.com/
+#   images:
+#     - '/folio/hapi-1.jpg'
+#   next_page: /random-international.html
+#   meta:
+#     title: Health Performance International - Portfolio of Gareth Weaver
+#     description: Complete website build and design for Health Performance International using HTML, CSS and jQuery
+
+- url: http://www.writelessdomore.co.uk/
+  thumb: /thumb/blog.gif
+  title: Write Less Do More - Personal Blog
+  external: true
+
+- url: /camden-bar.html
+  thumb: /thumb/camdenbar.jpg
+  title: Camden Bar &amp; Kitchen
+  type: Website
+  year: 2012
+  description: <p>Camden Bar &amp; Kitchen were a new business looking to keep their fans and followers up to date as well as lure in new customers. Keeping things clean and simple I built a blog style website on wordpress with little a little flair here and there. The website is now over two years old and I'm happy to see it's weathered well.</p>
+  tools: Design, HTML5, CSS3, jQuery, PHP, Google Maps
+  live_site: http://www.camdenbar.co.uk/
+  images:
+    - '/folio/camden-1.jpg'
+    - '/folio/camden-2.jpg'
+  next_page: /random-international.html
+  meta:
+    title: Camden Bar &amp; Kitchen Website - Portfolio of Gareth Weaver
+    description: Custom website design and build for Camden Bar &amp; Kitchen built on Wordpress using HTML5, CSS3 and jQuery
+
+- url: http://codepen.io/garethdweaver/details/eNpWBb
+  thumb: /thumb/countdown.gif
+  title: AngularJs Countdown Timer Directive
+  external: true
+
+- url: /random-international.html
+  thumb: /thumb/random.jpg
+  title: Random International
+  type: Website
+  year: 2013
+  description: <p>rAndom International needed a new website and had already worked out the design. They wanted things kept super simple but with a few techinal ascpects taken care of. I integrated a vimeo player into a gallery which pulls in images attached to the post.</p>
+  tools: HTML5, CSS3, jQuery, PHP, Wordpress
+  live_site: http://random-international.com/
+  images:
+    - '/folio/random-1.jpg'
+  next_page: /cashbackcard.html
+  meta:
+    title: rAndom International - Portfolio of Gareth Weaver
+    description: I worked behind the scenes with rAndom International to code the back-end of their website built on Wordpress
+

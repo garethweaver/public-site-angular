@@ -1,0 +1,14 @@
+- @body_class = 'home'
+
+#intro
+  .flex-wrap
+    .flex-box
+      %h1 Design &amp;<br>Development
+      %h2 Let’s talk about websites, rugby, cakes or just the weather. I’m a front-end developer and I live in London, UK.
+      %a.scroll{ :'scroll-to' => 'portfolio', duration: '1000', offset: 30 }
+        View Portfolio
+        %span.fa.fa-level-down
+  .desk-wrap
+    = image_tag 'img-desk.gif', class: 'desk'
+
+= partial "partials/folio"

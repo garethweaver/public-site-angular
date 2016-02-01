@@ -1,0 +1,11 @@
+%section#portfolio.fluid-container.border
+  .row.row-no-padding.bg-gray
+    - data.folio.each do |page|
+      .col-lg-4.col-sm-6
+
+        - if page.external
+          = link_to page.url, target: '_blank', class: 'lazy-load' do
+            = image_tag images_dir + page.thumb, :class => 'respond', :alt => page.title
+        - else
+          = link_to folio_path + page.url, class: 'lazy-load' do
+            = image_tag images_dir + page.thumb, :class => 'respond', :alt => page.title

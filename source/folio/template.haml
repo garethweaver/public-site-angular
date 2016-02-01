@@ -1,0 +1,27 @@
+- content_for(:title, page.meta.title)
+- content_for(:description, page.meta.description)
+
+.folio-wrap.bg-gray.border
+  .folio-text
+    %h1= page.title
+    %ul
+      %li= page.type
+      %li= page.tools
+      %li= page.year
+    = page.description
+  - page.images.each do |image|
+    .lazy-load
+      = image_tag images_dir + image, class: 'folio-image'
+
+  %ul.inline-list.next
+    - if page.live_site
+      %li.separator
+        = link_to page.live_site, target: '_blank' do
+          %span.fa.fa-globe
+          Visit Website
+    %li
+      = link_to folio_path.to_s + page.next_page do
+        %span.fa.fa-arrow-circle-o-right
+        Next Article
+
+= partial "partials/folio"

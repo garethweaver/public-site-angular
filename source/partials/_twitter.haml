@@ -1,0 +1,19 @@
+%aside.overlay.animate-hide-slide-in{ :'ng-show' => 'Overlay.twitterOverlay', :'esc-fn' => 'escOverlays', :'ng-cloak' => '' }
+  .overlay-bg.border
+    %a.fa.fa-times.cancel{ :'ng-click' => 'Overlay.closeOverlays()' }
+
+    .overlay-flex.animate-hide-slide-in-delayed{ :'ng-controller' => 'TwitterController', :'ng-show' => 'Overlay.twitterOverlay' }
+      .flex-box
+
+        %h1
+          Follow Me
+          %a{ :href => 'https://twitter.com/garethdweaver', :target => '_blank' } @garethdweaver
+
+        .central-loader{ :'ng-show' => 'loading' }
+          %span.fa.fa-refresh.fa-spin
+
+        %ul.tweets-list{ :'ng-hide' => 'loading' }
+          %li{ :'ng-repeat' => 'tweet in tweets' }
+            .img-wrap
+              %img{ :'ng-src' => '{{tweet.image}}' }
+            %span{ :'ng-bind-html' => 'trustAsHtml(tweet.text)' }

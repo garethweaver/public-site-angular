@@ -1,0 +1,42 @@
+!!!5
+%html{ :lang => "en", :"ng-app" => "gw" }
+  %head
+    %meta{ :charset => "utf-8" }
+
+    - if  content_for? :title
+      %title= yield_content :title
+      %meta{ :name => "description", :content => yield_content(:description) }
+    - else
+      %title Front-end Web Designer &amp; Developer - Gareth Weaver
+      %meta{ :name => "description", :content => "I'm a front-end web designer and developer. I'm always happy to have a chat about websites, hosting, technology or rugby. Why not send me a message?" }
+
+    %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" }
+    %meta{ :property => "og:type", :content => "website" }
+    %meta{ :property => "og:title", :content => "Gareth Weaver - Front-end Web Designer &amp; Developer" }
+    %meta{ :property => "og:url", :content => "http://www.garethweaver.com/" }
+    %meta{ :property => "og:image", :content => "http://www.garethweaver.com/assets/images/img-og.jpg" }
+    %meta{ :property => "og:description", :content => "I'm a front-end web designer and developer from the UK currently based in London. I'm always happy to have a chat about websites, hosting, technology or rugby. Why not send me a message?" }
+    = stylesheet_link_tag 'screen'
+    = stylesheet_link_tag "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+    = stylesheet_link_tag "//fonts.googleapis.com/css?family=Playfair+Display|Open+Sans:400,800"
+    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"
+    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-animate.min.js"
+    = javascript_include_tag 'script'
+    - if @build
+      :javascript
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-22525855-2']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+  %body{ :class => @body_class, :'ng-controller' => 'OverlayController', :'ng-class' => '{ "overlay-open" : Overlay.overlayOpen }' }
+    = partial "partials/menu"
+    .wrap
+      = yield
+      = partial "partials/footer"
+    = partial "partials/twitter"
+    = partial "partials/email"
