@@ -7,42 +7,6 @@
 # headless ghost screenshot
 
 
-
-- url: /sd-osteopaths.html
-  thumb: /thumb/ghost.jpg
-  title: St David's Osteopaths
-  type: Website Design &amp; Build
-  year: 2015
-  description: <p>When running a Kickstarter it's never a bad idea to throw up a microsite to promote your campaign or project. I designed this microsite to be big and bold while encouraging people to get involed and fund the project. Headless Ghost mimics a high resolution display unit for headless machines for GPU accelerated remote desktop and crypto currency mining.</p>
-  tools: Photoshop, Middleman, Haml, Scss, Anchor CMS
-  live_site: http://www.sdosteopaths.co.uk/
-  images:
-    - '/folio/ghost-1.jpg'
-  # next_page: /cashbackcard.html
-  # meta:
-  #   title: Headless Ghost Kickstarter Design - Portfolio of Gareth Weaver
-  #   description: A simple one page promotional website for Headless Ghost Kickstarter. Built in Haml and Scss with Middleman
-
-- url: /south-london-touch.html
-  thumb: /thumb/countdown.gif
-  title: South London Touch
-  type: Website Design &amp; Build
-  year: 2015
-  description: <p>When running a Kickstarter it's never a bad idea to throw up a microsite to promote your campaign or project. I designed this microsite to be big and bold while encouraging people to get involed and fund the project. Headless Ghost mimics a high resolution display unit for headless machines for GPU accelerated remote desktop and crypto currency mining.</p>
-  tools: Photoshop, Middleman, Haml, Scss, AngularJs
-  live_site: http://www.southlondontouchrugby.co.uk/
-  images:
-    - '/folio/touch-1.jpg'
-  # next_page: /cashbackcard.html
-  # meta:
-  #   title: Headless Ghost Kickstarter Design - Portfolio of Gareth Weaver
-  #   description: A simple one page promotional website for Headless Ghost Kickstarter. Built in Haml and Scss with Middleman
-
-- url: http://codepen.io/garethdweaver/details/rOPpLW/
-  thumb: /thumb/countdown.gif
-  title: Snow Canvas
-  external: true
-
 - url: /headless-ghost.html
   thumb: /thumb/ghost.jpg
   title: Headless Ghost
@@ -107,21 +71,6 @@
   thumb: /thumb/codepen.gif
   title: Popular Codepen of 2014
   external: true
-
-# - url: /health-performance-international.html
-#   thumb: /thumb/hapi.jpg
-#   title: Health Performance International
-#   type: Website
-#   year: 2011
-#   description: <p>Health Performance International required a futuristic looking website to showcase their use of the immersive Orrb Pod for stress prevention and recovery. I put this website together quite a while ago but I feel it still remains relevant even today.</p>
-#   tools: Design, XHTML, CSS, PHP
-#   live_site: http://hapinyc.com/
-#   images:
-#     - '/folio/hapi-1.jpg'
-#   next_page: /random-international.html
-#   meta:
-#     title: Health Performance International - Portfolio of Gareth Weaver
-#     description: Complete website build and design for Health Performance International using HTML, CSS and jQuery
 
 - url: http://www.writelessdomore.co.uk/
   thumb: /thumb/blog.gif
