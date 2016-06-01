@@ -93,36 +93,6 @@ app.controller 'OverlayController', ['$scope', 'Overlay', ($scope, Overlay) ->
 ]
 
 
-app.controller 'EmailController', ['$scope', '$http', '$timeout', 'Overlay', ($scope, $http, $timeout, Overlay) ->
-
-  $scope.sendMail = ->
-    $scope.loading = true
-    $scope.responseMessage = ''
-
-    $timeout ->
-      $http.post '/assets/php/email/email.php', $scope.email
-      .success (result) ->
-        $scope.responseMessage = result.message
-        if result.sent
-          $scope.responseError = false
-          $scope.email = ''
-          $timeout ->
-            $scope.responseMessage = ''
-            Overlay.closeOverlays()
-          , 3000
-        else
-          $scope.responseError = true
-      .error (error) ->
-        console.log error
-        $scope.responseError = true
-        $scope.responseMessage = error
-      .finally ->
-        $scope.loading = false
-
-    , 1000
-]
-
-
 app.controller 'TwitterController', [ '$scope', '$http', '$sce', 'Util', 'Overlay', ($scope, $http, $sce, Util, Overlay) ->
 
   $scope.trustAsHtml = $sce.trustAsHtml
