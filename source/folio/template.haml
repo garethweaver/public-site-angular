@@ -1,5 +1,6 @@
-- content_for(:title, page.meta.title)
-- content_for(:description, page.meta.description)
+- if page.meta
+  - content_for(:title, page.meta.title)
+  - content_for(:description, page.meta.description)
 
 .folio-wrap.bg-gray.border
   .folio-text
@@ -19,9 +20,10 @@
         = link_to page.live_site, target: '_blank' do
           %span.fa.fa-globe
           Visit Website
-    %li
-      = link_to folio_path.to_s + page.next_page do
-        %span.fa.fa-arrow-circle-o-right
-        Next Article
+    - if page.next_page
+      %li
+        = link_to folio_path.to_s + page.next_page do
+          %span.fa.fa-arrow-circle-o-right
+          Next Article
 
 = partial "partials/folio"
