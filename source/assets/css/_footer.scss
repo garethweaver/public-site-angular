@@ -1,9 +1,9 @@
 .page-footer {
-  text-align:center; font-size:$font-size-small;
-  @include show-on($screen-md-min){
-     padding-bottom:50px;
-    ul { @include inline-list(); }
-  }
+  font-size:$font-size-small;  text-align:center; padding-top:20px;
   ul { padding:0; }
   li { padding:0 10px; list-style:none; }
+  @include show-on($screen-md-min){
+    padding-bottom:80px;
+    ul { @include inline-list(); }
+  }
 }

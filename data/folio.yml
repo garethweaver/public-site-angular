@@ -7,6 +7,77 @@
 # headless ghost screenshot
 
 
+- url: /embedded-media-player.html
+  thumb: /thumb/mediaplayer.gif
+  title: Embedded Media Player
+  type: Javascript Widget
+  year: 2016
+  description: <p>During my time at Big Sofa I wrote a embedded HTML5 video transcript player. It handled playlists of videos as well multiple languages and transcript tags. You can check out a live version over at the Big Sofa API documentation. The plugin is written solely in CoffeeScript.</p>
+  tools: CoffeeScript
+  live_site: http://api-docs.bigsofa.co.uk/player
+  images:
+    - '/folio/player-1.jpg'
+    - '/folio/player-2.jpg'
+  next_page: /south-london-touch.html
+  meta:
+    title: Gareth Weaver - Embedded Media Player
+    description: I wrote an embedded HTML5 media player in CoffeeScript for Big Sofa which includes transcript support
+
+- url: /south-london-touch.html
+  thumb: /thumb/southlondontouch.gif
+  title: South London Touch Rugby
+  type: Logo Redesign
+  year: 2016
+  description: <p>As a personal project I took some time to re-design my local touch rugby club logo. I modernised the tiger while trying to stay true to the original club logo.</p>
+  tools: Illustrator
+  live_site: http://www.southlondontouchrugby.co.uk/
+  images:
+    - '/folio/sltrc-1.gif'
+    - '/folio/sltrc-2.gif'
+    - '/folio/sltrc-3.gif'
+  next_page: /big-sofa.html
+  meta:
+    title: Gareth Weaver - South London Touch Rugby
+    description: A personal project to re-design my social touch rugby club's logo
+
+- url: http://codepen.io/garethdweaver/details/rOPpLW/
+  thumb: /thumb/snow.jpg
+  title: Snow Canvas
+  external: true
+
+- url: /big-sofa.html
+  thumb: /thumb/bigsofa.jpg
+  title: Big Sofa
+  type: Fulltime Employment
+  year: 2015
+  description: <p>Working at Big Sofa for two years was great fun. I spent time developing and improving their video content management web app as an integral part of the team. For obvious reasons I can't even begin to show everything here!</p>
+  tools: Photoshop, Haml, Scss, CoffeeScript, AngularJs, Rspec
+  live_site: http://www.bigsofa.co.uk/
+  images:
+    - '/folio/big-sofa-1.jpg'
+    - '/folio/big-sofa-2.jpg'
+    - '/folio/big-sofa-3.jpg'
+  next_page: /sd-osteopaths.html
+  meta:
+    title: Gareth Weaver - Big Sofa
+    description: While working at Big Sofa I was heavily involed in designing and developing their video management platform.
+
+- url: /sd-osteopaths.html
+  thumb: /thumb/sdo.jpg
+  title: St David's Osteopaths
+  type: Website Design &amp; Build
+  year: 2015
+  description: <p>As a personal project for a friend I redesigned his osteopathy website to make it mobile safe while modernising it. Markup was put together in middleman before being integrated into Anchor CMS.</p>
+  tools: Photoshop, Middleman, Haml, Scss, Anchor CMS
+  live_site: http://www.sdosteopaths.co.uk/
+  images:
+    - '/folio/sdosteopaths-1.jpg'
+  next_page: /headless-ghost.html
+  meta:
+    title: Gareth Weaver - St David's Osteopaths
+    description: As a personal project for a friend I redesigned his osteopathy website
+
+
 - url: /headless-ghost.html
   thumb: /thumb/ghost.jpg
   title: Headless Ghost
@@ -19,7 +90,7 @@
     - '/folio/ghost-1.jpg'
   next_page: /cashbackcard.html
   meta:
-    title: Headless Ghost Kickstarter Design - Portfolio of Gareth Weaver
+    title: Gareth Weaver - Headless Ghost Kickstarter Design
     description: A simple one page promotional website for Headless Ghost Kickstarter. Built in Haml and Scss with Middleman
 
 - url: /cashbackcard.html
@@ -31,25 +102,11 @@
   tools: Photoshop
   images:
     - '/folio/cashback-1.jpg'
-  next_page: /big-sofa.html
-  meta:
-    title: Cashback Card Website Design - Portfolio of Gareth Weaver
-    description: Bespoke website design and layout for Cashbackcard.com assembled using Photoshop and Illustrator
-
-- url: /big-sofa.html
-  thumb: /thumb/bigsofa.jpg
-  title: Big Sofa
-  type: Website Design &amp; Build
-  year: 2015
-  description: <p>A quickie thrown up for Big Sofa to modernize their website in order to generate investment and re-align their web presence with the company's current direction. Keeping things clean, colourful, simple and on brand was key.</p>
-  tools: Photoshop, Middleman, Haml, Scss, AngularJs
-  live_site: http://www.bigsofa.co.uk/
-  images:
-    - '/folio/big-sofa-1.jpg'
   next_page: /illustration.html
   meta:
-    title: Big Sofa Website Design - Portfolio of Gareth Weaver
-    description: desc
+    title: Gareth Weaver - Cashback Card Website Design
+    description: Bespoke website design and layout for Cashbackcard.com assembled using Photoshop and Illustrator
+
 
 - url: /illustration.html
   thumb: /thumb/illustration.jpg
@@ -64,7 +121,7 @@
     - '/folio/illustration-3.jpg'
   next_page: /camden-bar.html
   meta:
-    title: Illustration &amp; Doodles - Portfolio of Gareth Weaver
+    title: Gareth Weaver - Illustration &amp; Doodles
     description: Here you can find some random illustrations, doodles and art designed in Illustrator and Photoshop
 
 - url: http://codepen.io/garethdweaver/details/zdElu/
@@ -82,34 +139,17 @@
   title: Camden Bar &amp; Kitchen
   type: Website
   year: 2012
-  description: <p>Camden Bar &amp; Kitchen were a new business looking to keep their fans and followers up to date as well as lure in new customers. Keeping things clean and simple I built a blog style website on wordpress with little a little flair here and there. The website is now over two years old and I'm happy to see it's weathered well.</p>
-  tools: Design, HTML5, CSS3, jQuery, PHP, Google Maps
+  description: <p>Camden Bar &amp; Kitchen were a new business looking to keep their fans and followers up to date as well as lure in new customers. Keeping things clean and simple I built basic website with a little flair here and there.</p>
+  tools: Photoshop, Middleman, Haml, Scss, AngularJs
   live_site: http://www.camdenbar.co.uk/
   images:
     - '/folio/camden-1.jpg'
-    - '/folio/camden-2.jpg'
-  next_page: /random-international.html
+  next_page: /embedded-media-player.html
   meta:
-    title: Camden Bar &amp; Kitchen Website - Portfolio of Gareth Weaver
-    description: Custom website design and build for Camden Bar &amp; Kitchen built on Wordpress using HTML5, CSS3 and jQuery
+    title: Gareth Weaver - Camden Bar &amp; Kitchen Website
+    description: Custom website design and build for Camden Bar &amp; Kitchen built on Wordpress using HTML5, CSS3 and AngularJs
 
 - url: http://codepen.io/garethdweaver/details/eNpWBb
   thumb: /thumb/countdown.gif
   title: AngularJs Countdown Timer Directive
   external: true
-
-- url: /random-international.html
-  thumb: /thumb/random.jpg
-  title: Random International
-  type: Website
-  year: 2013
-  description: <p>rAndom International needed a new website and had already worked out the design. They wanted things kept super simple but with a few techinal ascpects taken care of. I integrated a vimeo player into a gallery which pulls in images attached to the post.</p>
-  tools: HTML5, CSS3, jQuery, PHP, Wordpress
-  live_site: http://random-international.com/
-  images:
-    - '/folio/random-1.jpg'
-  next_page: /cashbackcard.html
-  meta:
-    title: rAndom International - Portfolio of Gareth Weaver
-    description: I worked behind the scenes with rAndom International to code the back-end of their website built on Wordpress
-
