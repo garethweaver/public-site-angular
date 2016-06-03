@@ -4,7 +4,7 @@ body.overlay-open { overflow:hidden; }
   position:fixed; top:0; left:0; bottom:0; right:0; z-index:2;
   .overlay-bg { position:relative; color:white; @extend .wrap; background:$dark-grey; height:100%; overflow:auto; padding:20px 0; }
   .cancel {
-    position:absolute; top:0; right:0; font-size:$font-size-h3; width:35px; height:35px; text-align:center; background:white;
+    position:absolute; top:20px; right:20px; @include circle-button(); background:white;
     &:hover { color:$brand-danger; }
   }
   h1 {
