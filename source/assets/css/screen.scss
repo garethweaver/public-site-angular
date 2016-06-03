@@ -89,7 +89,7 @@ body {
   .flex-box { max-width:500px; padding-bottom:110px; }
   .flex-wrap { padding:20px; }
   .desk-wrap {
-    background:white; height:72px;
+    background:white; height:72px; margin-bottom:50px;
     .desk { position:absolute; width:200px; bottom:0; left:50%; transform:translateX(-50%); }
   }
   a {
@@ -107,7 +107,7 @@ body {
   @include show-on($screen-xs-min){
     .flex-box { padding:40px 40px 170px; }
     .desk-wrap {
-      background:white; height:108px;
+      background:white; height:108px; margin-bottom:0;
       .desk { position:absolute; width:300px; }
     }
   }
