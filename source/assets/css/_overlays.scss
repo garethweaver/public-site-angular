@@ -11,7 +11,7 @@ body.overlay-open { overflow:hidden; }
     margin:0 0 50px; text-align:center;
     a { font-size:$font-size-base; display:block; font-weight:normal; font-family:"Playfair Display", serif; margin-top:10px; }
   }
-  .central-loader { font-size:$font-size-h2; }
+  .central-loader { font-size:$font-size-h2; text-align:center; }
   @include show-on($screen-md-min){
     .cancel { top:25px; right:30px; font-size:$font-size-h1; color:white; @include grow(1.1); height:auto; width:auto; background:none; }
     form {
