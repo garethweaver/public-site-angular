@@ -29,7 +29,6 @@ app.directive 'scrollClass', ['$window', ($window) ->
   restrict: 'A'
   link: (scope, element) ->
     angular.element($window).bind 'scroll', () ->
-      console.log 'foo'
       scope.scrolled = if @pageYOffset > 0 then true else false
       scope.$apply()
     return
