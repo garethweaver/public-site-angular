@@ -1,5 +1,5 @@
 #haml
-set :haml, { :attr_wrapper => '"', :layout_engine => :erb }
+set :haml, { :attr_wrapper => '"', :ugly => false }
 
 set :css_dir, 'assets/css'
 
